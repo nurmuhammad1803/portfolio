@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Jost';
+    transition: .5s;
+}
+
+// colors
+$black : #000 !important;
+$orange: #f26200 !important;
+$gray: #757575 !important;
+$white: #fff !important;
+$pink: #F5ECDB !important;
+
+// mixins
+@mixin nav-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: $black;
+}
+
+@mixin preimushestvo-title {
+    font-size: 27px;
+    font-weight: 500;
+    color: $black;
+}
+@mixin preimushestvo {
+    font-size: 21px;
+    font-weight: 500;
+    color: $gray;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 96px;
+    color: $orange;
+    font-weight: 700;
+    text-align: center;
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+.tac {
+    text-align: center;
+}
+
+.df {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.fdrc {
+    flex-direction: column;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.ais{
+    align-items: start;
+}
